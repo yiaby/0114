@@ -15,7 +15,7 @@ public class Member extends Object{
 	}
 	//부모 클래스의 메소드를 수동으로 오버라이드 시키는 방법 
 	//=> 먼저e를 입력하고 ctrl+spacebar 동시에 누르면 메소드가 뜬다.더블 클릭한다.
-     @Override //어노테이션:부모클래스의 메소드임을 알려줌
+     @Override //어노테이션:부모클래스의 메소드임을 알려줌 재사용,다형성개념 포함
     	public boolean equals(Object obj) {
     		if(obj instanceof Member) {
     			Member member =(Member)obj;
